@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05542F9A1BDE37AE00A55076 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05542F991BDE37AE00A55076 /* AppDelegate.m */; };
+		05542F9C1BDE37AE00A55076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05542F9B1BDE37AE00A55076 /* main.m */; };
+		05542F9E1BDE37AE00A55076 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05542F9D1BDE37AE00A55076 /* Images.xcassets */; };
+		05542FA11BDE37AE00A55076 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05542F9F1BDE37AE00A55076 /* MainMenu.xib */; };
+		05542FAD1BDE37AE00A55076 /* WebViewFocusLostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05542FAC1BDE37AE00A55076 /* WebViewFocusLostTests.m */; };
+		05542FB71BDE3C4A00A55076 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05542FB61BDE3C4A00A55076 /* WebKit.framework */; };
+		05542FBB1BDE530400A55076 /* WebView+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 05542FBA1BDE530400A55076 /* WebView+Extra.m */; };
+		05542FBE1BDE54C000A55076 /* WebViewFocusTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 05542FBD1BDE54C000A55076 /* WebViewFocusTracker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05542FA71BDE37AE00A55076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05542F8B1BDE37AE00A55076 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05542F921BDE37AE00A55076;
+			remoteInfo = WebViewFocusLost;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05542F931BDE37AE00A55076 /* WebViewFocusLost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewFocusLost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05542F971BDE37AE00A55076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05542F981BDE37AE00A55076 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05542F991BDE37AE00A55076 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05542F9B1BDE37AE00A55076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05542F9D1BDE37AE00A55076 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05542FA01BDE37AE00A55076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		05542FA61BDE37AE00A55076 /* WebViewFocusLostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewFocusLostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05542FAB1BDE37AE00A55076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05542FAC1BDE37AE00A55076 /* WebViewFocusLostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewFocusLostTests.m; sourceTree = "<group>"; };
+		05542FB61BDE3C4A00A55076 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		05542FB91BDE530400A55076 /* WebView+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WebView+Extra.h"; sourceTree = "<group>"; };
+		05542FBA1BDE530400A55076 /* WebView+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WebView+Extra.m"; sourceTree = "<group>"; };
+		05542FBC1BDE54C000A55076 /* WebViewFocusTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewFocusTracker.h; sourceTree = "<group>"; };
+		05542FBD1BDE54C000A55076 /* WebViewFocusTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewFocusTracker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05542F901BDE37AE00A55076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05542FB71BDE3C4A00A55076 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05542FA31BDE37AE00A55076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05542F8A1BDE37AD00A55076 = {
+			isa = PBXGroup;
+			children = (
+				05542FB81BDE3C5100A55076 /* Frameworks */,
+				05542F951BDE37AE00A55076 /* WebViewFocusLost */,
+				05542FA91BDE37AE00A55076 /* WebViewFocusLostTests */,
+				05542F941BDE37AE00A55076 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05542F941BDE37AE00A55076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05542F931BDE37AE00A55076 /* WebViewFocusLost.app */,
+				05542FA61BDE37AE00A55076 /* WebViewFocusLostTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05542F951BDE37AE00A55076 /* WebViewFocusLost */ = {
+			isa = PBXGroup;
+			children = (
+				05542F981BDE37AE00A55076 /* AppDelegate.h */,
+				05542F991BDE37AE00A55076 /* AppDelegate.m */,
+				05542F9D1BDE37AE00A55076 /* Images.xcassets */,
+				05542F9F1BDE37AE00A55076 /* MainMenu.xib */,
+				05542F961BDE37AE00A55076 /* Supporting Files */,
+				05542FB91BDE530400A55076 /* WebView+Extra.h */,
+				05542FBA1BDE530400A55076 /* WebView+Extra.m */,
+				05542FBC1BDE54C000A55076 /* WebViewFocusTracker.h */,
+				05542FBD1BDE54C000A55076 /* WebViewFocusTracker.m */,
+			);
+			path = WebViewFocusLost;
+			sourceTree = "<group>";
+		};
+		05542F961BDE37AE00A55076 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05542F971BDE37AE00A55076 /* Info.plist */,
+				05542F9B1BDE37AE00A55076 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05542FA91BDE37AE00A55076 /* WebViewFocusLostTests */ = {
+			isa = PBXGroup;
+			children = (
+				05542FAC1BDE37AE00A55076 /* WebViewFocusLostTests.m */,
+				05542FAA1BDE37AE00A55076 /* Supporting Files */,
+			);
+			path = WebViewFocusLostTests;
+			sourceTree = "<group>";
+		};
+		05542FAA1BDE37AE00A55076 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05542FAB1BDE37AE00A55076 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05542FB81BDE3C5100A55076 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05542FB61BDE3C4A00A55076 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05542F921BDE37AE00A55076 /* WebViewFocusLost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05542FB01BDE37AE00A55076 /* Build configuration list for PBXNativeTarget "WebViewFocusLost" */;
+			buildPhases = (
+				05542F8F1BDE37AE00A55076 /* Sources */,
+				05542F901BDE37AE00A55076 /* Frameworks */,
+				05542F911BDE37AE00A55076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebViewFocusLost;
+			productName = WebViewFocusLost;
+			productReference = 05542F931BDE37AE00A55076 /* WebViewFocusLost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05542FA51BDE37AE00A55076 /* WebViewFocusLostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05542FB31BDE37AE00A55076 /* Build configuration list for PBXNativeTarget "WebViewFocusLostTests" */;
+			buildPhases = (
+				05542FA21BDE37AE00A55076 /* Sources */,
+				05542FA31BDE37AE00A55076 /* Frameworks */,
+				05542FA41BDE37AE00A55076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05542FA81BDE37AE00A55076 /* PBXTargetDependency */,
+			);
+			name = WebViewFocusLostTests;
+			productName = WebViewFocusLostTests;
+			productReference = 05542FA61BDE37AE00A55076 /* WebViewFocusLostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05542F8B1BDE37AE00A55076 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Informatik-007";
+				TargetAttributes = {
+					05542F921BDE37AE00A55076 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					05542FA51BDE37AE00A55076 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 05542F921BDE37AE00A55076;
+					};
+				};
+			};
+			buildConfigurationList = 05542F8E1BDE37AE00A55076 /* Build configuration list for PBXProject "WebViewFocusLost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05542F8A1BDE37AD00A55076;
+			productRefGroup = 05542F941BDE37AE00A55076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05542F921BDE37AE00A55076 /* WebViewFocusLost */,
+				05542FA51BDE37AE00A55076 /* WebViewFocusLostTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05542F911BDE37AE00A55076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05542F9E1BDE37AE00A55076 /* Images.xcassets in Resources */,
+				05542FA11BDE37AE00A55076 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05542FA41BDE37AE00A55076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05542F8F1BDE37AE00A55076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05542F9C1BDE37AE00A55076 /* main.m in Sources */,
+				05542FBE1BDE54C000A55076 /* WebViewFocusTracker.m in Sources */,
+				05542F9A1BDE37AE00A55076 /* AppDelegate.m in Sources */,
+				05542FBB1BDE530400A55076 /* WebView+Extra.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05542FA21BDE37AE00A55076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05542FAD1BDE37AE00A55076 /* WebViewFocusLostTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05542FA81BDE37AE00A55076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05542F921BDE37AE00A55076 /* WebViewFocusLost */;
+			targetProxy = 05542FA71BDE37AE00A55076 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05542F9F1BDE37AE00A55076 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05542FA01BDE37AE00A55076 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05542FAE1BDE37AE00A55076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		05542FAF1BDE37AE00A55076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		05542FB11BDE37AE00A55076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WebViewFocusLost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05542FB21BDE37AE00A55076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WebViewFocusLost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05542FB41BDE37AE00A55076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebViewFocusLostTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebViewFocusLost.app/Contents/MacOS/WebViewFocusLost";
+			};
+			name = Debug;
+		};
+		05542FB51BDE37AE00A55076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebViewFocusLostTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebViewFocusLost.app/Contents/MacOS/WebViewFocusLost";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05542F8E1BDE37AE00A55076 /* Build configuration list for PBXProject "WebViewFocusLost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05542FAE1BDE37AE00A55076 /* Debug */,
+				05542FAF1BDE37AE00A55076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05542FB01BDE37AE00A55076 /* Build configuration list for PBXNativeTarget "WebViewFocusLost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05542FB11BDE37AE00A55076 /* Debug */,
+				05542FB21BDE37AE00A55076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05542FB31BDE37AE00A55076 /* Build configuration list for PBXNativeTarget "WebViewFocusLostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05542FB41BDE37AE00A55076 /* Debug */,
+				05542FB51BDE37AE00A55076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05542F8B1BDE37AE00A55076 /* Project object */;
+}
