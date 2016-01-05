@@ -2,7 +2,7 @@
 
   - [CanBecomeKeyWindow][cbkv-repo-url]
       - [Что означает canBecomeKeyWindow?][cbkv-post-url]
- - [DrawingOnView][dov-repo-url]
+  - [DrawingOnView][dov-repo-url]
       - [Как работает функция NSInsetRect?][dov-inset-post-url]
       - [Кривые Безье в Cocoa на примере создания простой прямоугольной выноски][dov-bezier-post-url]
 
