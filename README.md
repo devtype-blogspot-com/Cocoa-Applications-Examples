@@ -2,6 +2,8 @@
 
   - [CanBecomeKeyWindow][cbkv-repo-url]
       - [Что означает canBecomeKeyWindow?][cbkv-post-url]
+  - [Core Data Template][cdt-repo-url]
+      - [Из чего состоит Cocoa-приложение работающее с Core Data][cdt-post-url]
   - [DrawingOnView][dov-repo-url]
       - [Как работает функция NSInsetRect?][dov-inset-post-url]
       - [Кривые Безье в Cocoa на примере создания простой прямоугольной выноски][dov-bezier-post-url]
@@ -11,3 +13,5 @@
    [dov-repo-url]: <https://github.com/devtype-blogspot-com/Cocoa-Applications-Examples/tree/master/DrawingOnView>
    [dov-bezier-post-url]: <http://devtype.blogspot.com/2016/01/Krivye-Beze-v-Cocoa.html>
    [dov-inset-post-url]: <http://devtype.blogspot.com/2016/01/Kak-rabotaet-funktsiya-NSInsetRect.html>
+   [cdt-repo-url]: <https://github.com/devtype-blogspot-com/Cocoa-Applications-Examples/tree/master/Core%20Data%20Template>
+   [cdt-post-url]: <http://devtype.blogspot.com/2016/01/Iz-chego-sostoit-Cocoa-prilozhenie-rabotayushchee-s-Core-Data.html>
