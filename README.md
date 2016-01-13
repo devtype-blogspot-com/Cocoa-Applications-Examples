@@ -7,6 +7,8 @@
   - [DrawingOnView][dov-repo-url]
       - [Как работает функция NSInsetRect?][dov-inset-post-url]
       - [Кривые Безье в Cocoa на примере создания простой прямоугольной выноски][dov-bezier-post-url]
+  - [ConvertRectToScreen][crts-repo-url]
+      - [Как работает метод convertRectToScreen: класса NSWindow][crts-post-url]
 
    [cbkv-repo-url]: <https://github.com/devtype-blogspot-com/Cocoa-Applications-Examples/tree/master/CanBecomeKeyWindow>
    [cbkv-post-url]: <http://devtype.blogspot.com/2016/01/Chto-oznachaet-canBecomeKeyWindow.html>
@@ -15,3 +17,5 @@
    [dov-inset-post-url]: <http://devtype.blogspot.com/2016/01/Kak-rabotaet-funktsiya-NSInsetRect.html>
    [cdt-repo-url]: <https://github.com/devtype-blogspot-com/Cocoa-Applications-Examples/tree/master/Core%20Data%20Template>
    [cdt-post-url]: <http://devtype.blogspot.com/2016/01/Iz-chego-sostoit-Cocoa-prilozhenie-rabotayushchee-s-Core-Data.html>
+   [crts-repo-url]: <https://github.com/devtype-blogspot-com/Cocoa-Applications-Examples/tree/master/ConvertRectToScreen>
+   [crts-post-url]: <http://devtype.blogspot.com/2016/01/Kak-rabotaet-metod-convertRectToScreen-klassa-NSWindow.html>
