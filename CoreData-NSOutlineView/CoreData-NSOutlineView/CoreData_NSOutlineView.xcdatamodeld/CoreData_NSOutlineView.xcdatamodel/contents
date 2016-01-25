@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8118.17" systemVersion="14D136" minimumToolsVersion="Automatic">
+    <entity name="Group" representedClassName="Group" syncable="YES">
+        <attribute name="name" attributeType="String" defaultValueString="New Group" syncable="YES"/>
+        <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Group" inverseName="subGroups" inverseEntity="Group" syncable="YES"/>
+        <relationship name="subGroups" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Group" inverseName="parent" inverseEntity="Group" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Group" positionX="-63" positionY="-18" width="128" height="88"/>
+    </elements>
+</model>

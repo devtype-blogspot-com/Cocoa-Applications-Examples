@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B44A48FB1C56673200F3F56D /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = B44A48FA1C56673200F3F56D /* Group.m */; };
+		B45E699F1C569DD6003D121E /* OutlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E699E1C569DD6003D121E /* OutlineViewController.m */; };
+		B4EED92A1C54DC2000B7A642 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EED9291C54DC2000B7A642 /* AppDelegate.m */; };
+		B4EED92D1C54DC2000B7A642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EED92C1C54DC2000B7A642 /* main.m */; };
+		B4EED9301C54DC2000B7A642 /* CoreData_NSOutlineView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4EED92E1C54DC2000B7A642 /* CoreData_NSOutlineView.xcdatamodeld */; };
+		B4EED9321C54DC2000B7A642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4EED9311C54DC2000B7A642 /* Assets.xcassets */; };
+		B4EED9351C54DC2000B7A642 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4EED9331C54DC2000B7A642 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B44A48F81C56673200F3F56D /* Group+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Group+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B44A48F91C56673200F3F56D /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		B44A48FA1C56673200F3F56D /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		B45E699D1C569DD6003D121E /* OutlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutlineViewController.h; sourceTree = "<group>"; };
+		B45E699E1C569DD6003D121E /* OutlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutlineViewController.m; sourceTree = "<group>"; };
+		B4EED9251C54DC1F00B7A642 /* CoreData-NSOutlineView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData-NSOutlineView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4EED9281C54DC1F00B7A642 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4EED9291C54DC2000B7A642 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4EED92C1C54DC2000B7A642 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4EED92F1C54DC2000B7A642 /* CoreData_NSOutlineView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData_NSOutlineView.xcdatamodel; sourceTree = "<group>"; };
+		B4EED9311C54DC2000B7A642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4EED9341C54DC2000B7A642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B4EED9361C54DC2000B7A642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4EED9221C54DC1F00B7A642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4EED91C1C54DC1F00B7A642 = {
+			isa = PBXGroup;
+			children = (
+				B4EED9271C54DC1F00B7A642 /* CoreData-NSOutlineView */,
+				B4EED9261C54DC1F00B7A642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4EED9261C54DC1F00B7A642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4EED9251C54DC1F00B7A642 /* CoreData-NSOutlineView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4EED9271C54DC1F00B7A642 /* CoreData-NSOutlineView */ = {
+			isa = PBXGroup;
+			children = (
+				B4EED9281C54DC1F00B7A642 /* AppDelegate.h */,
+				B4EED9291C54DC2000B7A642 /* AppDelegate.m */,
+				B4EED9311C54DC2000B7A642 /* Assets.xcassets */,
+				B4EED9331C54DC2000B7A642 /* MainMenu.xib */,
+				B4EED9361C54DC2000B7A642 /* Info.plist */,
+				B4EED92E1C54DC2000B7A642 /* CoreData_NSOutlineView.xcdatamodeld */,
+				B4EED92B1C54DC2000B7A642 /* Supporting Files */,
+				B44A48F81C56673200F3F56D /* Group+CoreDataProperties.h */,
+				B44A48F91C56673200F3F56D /* Group.h */,
+				B44A48FA1C56673200F3F56D /* Group.m */,
+				B45E699D1C569DD6003D121E /* OutlineViewController.h */,
+				B45E699E1C569DD6003D121E /* OutlineViewController.m */,
+			);
+			path = "CoreData-NSOutlineView";
+			sourceTree = "<group>";
+		};
+		B4EED92B1C54DC2000B7A642 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4EED92C1C54DC2000B7A642 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4EED9241C54DC1F00B7A642 /* CoreData-NSOutlineView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4EED9391C54DC2000B7A642 /* Build configuration list for PBXNativeTarget "CoreData-NSOutlineView" */;
+			buildPhases = (
+				B4EED9211C54DC1F00B7A642 /* Sources */,
+				B4EED9221C54DC1F00B7A642 /* Frameworks */,
+				B4EED9231C54DC1F00B7A642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoreData-NSOutlineView";
+			productName = "CoreData-NSOutlineView";
+			productReference = B4EED9251C54DC1F00B7A642 /* CoreData-NSOutlineView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4EED91D1C54DC1F00B7A642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = DEVTYPE;
+				TargetAttributes = {
+					B4EED9241C54DC1F00B7A642 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = B4EED9201C54DC1F00B7A642 /* Build configuration list for PBXProject "CoreData-NSOutlineView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4EED91C1C54DC1F00B7A642;
+			productRefGroup = B4EED9261C54DC1F00B7A642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4EED9241C54DC1F00B7A642 /* CoreData-NSOutlineView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4EED9231C54DC1F00B7A642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EED9321C54DC2000B7A642 /* Assets.xcassets in Resources */,
+				B4EED9351C54DC2000B7A642 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4EED9211C54DC1F00B7A642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EED92D1C54DC2000B7A642 /* main.m in Sources */,
+				B4EED9301C54DC2000B7A642 /* CoreData_NSOutlineView.xcdatamodeld in Sources */,
+				B45E699F1C569DD6003D121E /* OutlineViewController.m in Sources */,
+				B4EED92A1C54DC2000B7A642 /* AppDelegate.m in Sources */,
+				B44A48FB1C56673200F3F56D /* Group.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4EED9331C54DC2000B7A642 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4EED9341C54DC2000B7A642 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4EED9371C54DC2000B7A642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B4EED9381C54DC2000B7A642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B4EED93A1C54DC2000B7A642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CoreData-NSOutlineView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.devtype.CoreData-NSOutlineView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4EED93B1C54DC2000B7A642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CoreData-NSOutlineView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.devtype.CoreData-NSOutlineView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4EED9201C54DC1F00B7A642 /* Build configuration list for PBXProject "CoreData-NSOutlineView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EED9371C54DC2000B7A642 /* Debug */,
+				B4EED9381C54DC2000B7A642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4EED9391C54DC2000B7A642 /* Build configuration list for PBXNativeTarget "CoreData-NSOutlineView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EED93A1C54DC2000B7A642 /* Debug */,
+				B4EED93B1C54DC2000B7A642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B4EED92E1C54DC2000B7A642 /* CoreData_NSOutlineView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B4EED92F1C54DC2000B7A642 /* CoreData_NSOutlineView.xcdatamodel */,
+			);
+			currentVersion = B4EED92F1C54DC2000B7A642 /* CoreData_NSOutlineView.xcdatamodel */;
+			path = CoreData_NSOutlineView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B4EED91D1C54DC1F00B7A642 /* Project object */;
+}
