@@ -11,6 +11,8 @@
   - [DrawingOnView][dov-repo-url]
       - [Как работает функция NSInsetRect?][dov-inset-post-url]
       - [Кривые Безье в Cocoa на примере создания простой прямоугольной выноски][dov-bezier-post-url]
+  - [NSTreeController][nstc-repo-url]
+      - [Как использовать NSTreeController?][nstc-post-url]
 
    [cbkv-repo-url]: <https://github.com/devtype-blogspot-com/Cocoa-Applications-Examples/tree/master/CanBecomeKeyWindow>
    [cbkv-post-url]: <http://devtype.blogspot.com/2016/01/Chto-oznachaet-canBecomeKeyWindow.html>
@@ -23,3 +25,5 @@
    [crts-post-url]: <http://devtype.blogspot.com/2016/01/Kak-rabotaet-metod-convertRectToScreen-klassa-NSWindow.html>
    [cdnsov-repo-url]: <https://github.com/devtype-blogspot-com/Cocoa-Applications-Examples/tree/master/CoreData-NSOutlineView>
    [cdnsov-post-url]: <http://devtype.blogspot.com/2016/01/Ispolzovanie-NSOutlineView-i-Core-Data.html>
+   [nstc-repo-url]: <https://github.com/devtype-blogspot-com/Cocoa-Applications-Examples/tree/master/NSTreeController>
+   [nstc-post-url]: <http://devtype.blogspot.com/2016/01/Kak-ispolzovat-NSTreeController.html>
