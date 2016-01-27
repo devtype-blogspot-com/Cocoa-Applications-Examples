@@ -8,6 +8,8 @@
       - [Из чего состоит Cocoa-приложение работающее с Core Data][cdt-post-url]
   - [CoreData-NSOutlineView][cdnsov-repo-url]
       - [Использование NSOutlineView и Core Data][cdnsov-post-url]
+  - [DocumentationComments][dc-repo-url]
+      - [Комментарии для документирования кода Objective-C][dc-post-url]
   - [DrawingOnView][dov-repo-url]
       - [Как работает функция NSInsetRect?][dov-inset-post-url]
       - [Кривые Безье в Cocoa на примере создания простой прямоугольной выноски][dov-bezier-post-url]
@@ -27,3 +29,5 @@
    [cdnsov-post-url]: <http://devtype.blogspot.com/2016/01/Ispolzovanie-NSOutlineView-i-Core-Data.html>
    [nstc-repo-url]: <https://github.com/devtype-blogspot-com/Cocoa-Applications-Examples/tree/master/NSTreeController>
    [nstc-post-url]: <http://devtype.blogspot.com/2016/01/Kak-ispolzovat-NSTreeController.html>
+   [dc-repo-url]: <https://github.com/devtype-blogspot-com/Cocoa-Applications-Examples/tree/master/DocumentationComments>
+   [dc-post-url]: <http://devtype.blogspot.com/2016/01/Kommentarii-dlya-dokumentirovaniya-koda-Objective-C.html>
