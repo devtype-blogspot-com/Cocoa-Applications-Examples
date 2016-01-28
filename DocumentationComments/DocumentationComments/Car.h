@@ -17,6 +17,13 @@
 - (void)moveAtLocation:(CGPoint)aLocation;
 
 - (void)park;
-- (void)accelerate;
+
+/*!
+ Ускорить движение.\n Новой строки не будет (команда не работает).
+ 
+ \brief Всплывающая подсказка будет отображать только этот текст. 
+ \example Пример использования тоже не работает.
+ */
+- (void)accelerateWithValue:(CGFloat)aValue;
 
 @end

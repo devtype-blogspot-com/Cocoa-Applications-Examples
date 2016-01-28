@@ -20,7 +20,7 @@
     // Do nothing
 }
 
-- (void)accelerate
+- (void)accelerateWithValue:(CGFloat)aValue
 {
     // Do nothing
 }

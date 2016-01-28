@@ -10,10 +10,17 @@
 
 @interface Student : NSObject
 
-@property NSString *name;
+@property (nonatomic) NSString *name;
 @property CGFloat grade;
 
 /// @description Вывести оценку.
 - (void)printGrade;
+
+/*! 
+ <tt>Этот текст не будет жирным.</tt>
+ 
+ @return Returns an @c NSString or @c nil.
+ */
+- (NSString *)getStudentName;
 
 @end

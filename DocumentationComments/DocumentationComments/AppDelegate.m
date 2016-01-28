@@ -24,10 +24,12 @@
     
     Student *theStudent = [Student new];
     [theStudent printGrade];
+    NSLog(@"%@", [theStudent getStudentName]);
     
     Car *theCar = [Car new];
     [theCar moveAtLocation:NSZeroPoint];
-    
+    [theCar accelerateWithValue:123];
+
     Circle *theCircle = [Circle new];
     [theCircle getArea];
     

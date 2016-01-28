@@ -10,6 +10,11 @@
 
 @implementation Student
 
+- (NSString *)getStudentName
+{
+    return _name;
+}
+
 - (void)printGrade
 {
     NSLog(@"%f", self.grade);
